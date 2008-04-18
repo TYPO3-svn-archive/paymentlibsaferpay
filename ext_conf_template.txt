@@ -1,0 +1,20 @@
+  # cat=provider/general; type=boolean; label= Certified by VISA / Mastercard: Only if your application, this extension and your webserver is certified by VISA / Mastercard you may switch this on! Otherwise you must not use the SOAP functions because credit card data would be processed by your webserver. Be sure of what you are doing, it's all an your own risk!
+scriptiscertified = 0
+  # cat=provider/account; type=string; label= Account ID:Your Saferpay account id
+accountid = 99999
+  # cat=provider/account; type=string; label= Transaction user:Id of the transaction user (not the admin user!)
+trxuserid = 99999
+  # cat=provider/account; type=string; label= Transaction password:Password of the transaction user (not the admin user!)
+trxpassword = 0
+  # cat=provider/account; type=string; label= path of the saferpay script on this server
+execPath = /usr/local/saferpay/out/
+  # cat=provider/uri; type=string; label= URI:URI for the Saferpay Gateway
+provideruri = https://support.saferpay.de/scripts/
+  # cat=provider/uri; type=string; label= Success link:URI where it shall go after a successfull payment
+successlink = 
+  # cat=provider/uri; type=string; label= Failure link:URI where it shall go after a payment failure
+faillink =
+  # cat=provider/uri; type=boolean; label= Use Client Component:Set this to 1 if you did install the Saferpay Client Component on the webserver
+useClient = 1
+  # cat=provider/uri; type=boolean; label= Use Curl:Set this if you want to use Curl to fetch the info from the Saferpay server instead of the file function
+useCurl = 1

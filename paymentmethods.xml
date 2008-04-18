@@ -1,0 +1,7 @@
+<paymentmethods>
+	<paymentlib_saferpay_all type="array">
+		<label>LLL:EXT:paymentlib_saferpay/locallang.php:all</label>
+		<type>directdebit</type>
+		<iconpath>EXT:paymentlib_saferpay/res/logo_saferpay_color_low.png</iconpath>
+	</paymentlib_saferpay_all>
+</paymentmethods>
